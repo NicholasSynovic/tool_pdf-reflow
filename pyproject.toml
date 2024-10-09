@@ -12,6 +12,9 @@ classifiers = ["Development Status :: 1 - Planning"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+textual = "^0.82.0"
+click = "^8.1.7"
+pypdf = {version = "^5.0.1", extras = ["crypto"]}
 
 
 [build-system]
